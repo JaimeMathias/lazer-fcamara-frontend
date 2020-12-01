@@ -8,6 +8,7 @@ import { AuthService } from '../../auth.service';
 export interface Platforms {
   id: number;
   name: String; // in the angular doc example, it has a value and a viewValue, it seems like the value should be like an id
+  location: string;
 }
 
 export interface PlatformQueue {
