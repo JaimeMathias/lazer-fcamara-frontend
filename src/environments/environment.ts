@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   modeDebug: true,
-  apiUrl: "https://lazer-fcamara-backend.herokuapp.com//api"
+  apiUrl: "https://lazer-fcamara-backend.herokuapp.com/api"
 };
 
 /*
