@@ -168,12 +168,12 @@ export class QueueEntryComponent implements OnInit, OnDestroy {
   }
 
   handleUserNotification() {
-    this.httpService.disableNotifications().subscribe(() => {
+    /*this.httpService.disableNotifications().subscribe(() => {
       console.log("Notificação desativada com sucesso!");
     }, (error) => {
       console.error(error)
       this.handleRequestError()
-    })
+    })*/
   }
 
   removeUser() {
